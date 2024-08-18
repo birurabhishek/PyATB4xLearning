@@ -59,3 +59,6 @@ print(type(pi))
 print(type(name))
 print(type(isMale))
 print(type(complexNumber))
+
+a,b,c = 12,13,14
+print(a,b,c)
