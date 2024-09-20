@@ -14,3 +14,13 @@ if L1=L2=L3 --> Equilateral
 if L1&L2 | L1&L3 | L2&L3 --> Isosceles
 if L1!=L2!=L3 --> Scalene
 """
+a = float(input("Enter side a:"))
+b = float(input("Enter side b:"))
+c = float(input("Enter side c:"))
+
+if a == b == c:
+    print("Equilateral Triangle")
+elif a == b or a == c or b==c:
+    print('Isosceles Triangle')
+else:
+    print('Scalene')

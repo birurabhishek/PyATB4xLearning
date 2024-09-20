@@ -12,3 +12,4 @@ for number in range(10):
 
 
 # pass --> Can be used in the statement, functions, class and object.
+
